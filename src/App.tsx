@@ -9,7 +9,7 @@ function App() {
   return (
     <header>
       <div className='wrapper'>
-        <div className='grid grid-cols-5 grid-rows-2'>
+        <div className='grid grid-cols-2 md:grid-cols-5 md:grid-rows-2'>
           <DndProvider backend={HTML5Backend}>
             {boardColumns.map((column, columnIndex) => (
               <Column
